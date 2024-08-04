@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "${mod_id}",
+    "name": "${name}",
+    "description": "A mod template hacked together by Lenvill from several examples",
+    "version": "${mod_version}",
+    "mcversion": "${mc_version}",
+    "url": "${url}",
+	"updateUrl": "${update_url}",
+    "authorList": ["Lenvill", "PIPPIP5789"],
+    "credits": "ThatPolishKid, The_Computerizer",
+	"logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
