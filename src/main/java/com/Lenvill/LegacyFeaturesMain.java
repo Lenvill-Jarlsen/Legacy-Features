@@ -8,10 +8,10 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Base.MODID, name = Base.NAME, dependencies = Base.DEPENDENCIES, version = Base.VERSION)
-public class Base {
-    public static final String MODID = "base";
-    public static final String NAME = "Base";
+@Mod(modid = LegacyFeaturesMain.MODID, name = LegacyFeaturesMain.NAME, dependencies = LegacyFeaturesMain.DEPENDENCIES, version = LegacyFeaturesMain.VERSION)
+public class LegacyFeaturesMain {
+    public static final String MODID = "legacy_features";
+    public static final String NAME = "Legacy Features";
     public static final String VERSION = "@VERSION@";
     public static final String DEPENDENCIES = "required-after:minefantasyreforged;";
 
@@ -33,4 +33,21 @@ public class Base {
     public void postInit(FMLPostInitializationEvent event) {
 
     }
+    /*
+    TO-DO LIST
+    MF2:
+        Bedroll!
+        Dirt-textured roads?
+    MF2 Alpha:
+        Pestle
+        Curds
+        Tea Leaf
+        Mild Spice
+        Salad
+        Scaled Armor
+        Research Scrolls
+    MF1:
+        Herbs!
+        Zyrridium
+     */
 }

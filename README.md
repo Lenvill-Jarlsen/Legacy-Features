@@ -1,3 +1,3 @@
-## Base
+## MineFantasy Reforged: Legacy Features
 
-A base mod template for Lenvill's MFR addons.
+Miscellaneous features from older MineFantasy versions brought forward and added to Minefantasy: Reforge

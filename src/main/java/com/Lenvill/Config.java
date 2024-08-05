@@ -33,7 +33,7 @@ public class Config {
     @SubscribeEvent
     public void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event)
     {
-        if(event.getModID().equalsIgnoreCase(Base.MODID))
+        if(event.getModID().equalsIgnoreCase(LegacyFeaturesMain.MODID))
         {
             load();
         }
