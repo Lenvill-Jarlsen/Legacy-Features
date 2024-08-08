@@ -10,7 +10,7 @@ public class LegacyItemBase extends Item implements IClientRegister {
     public LegacyItemBase(String name) {
         setRegistryName(name);
         setTranslationKey(name);
-        setCreativeTab(LegacyFeaturesMain.tab);
+        setCreativeTab(LegacyFeaturesMain.creativeTab);
 
         LegacyItems.ITEMS.add(this);
     }

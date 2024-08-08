@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "legacy_features:zyrridium_block"
+        }
+    ],
+    "result": {
+        "item": "legacy_features:zyrridium_dust",
+        "count": 9
+    }
+}

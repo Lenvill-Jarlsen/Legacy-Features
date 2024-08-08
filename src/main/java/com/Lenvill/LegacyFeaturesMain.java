@@ -25,7 +25,7 @@ public class LegacyFeaturesMain {
     @SidedProxy(clientSide = "com.Lenvill.proxy.ClientProxy", serverSide = "com.Lenvill.proxy.CommonProxy")
     public static CommonProxy PROXY;
 
-    public static CreativeTabs tab = new CreativeTabs("legacy") {
+    public static CreativeTabs creativeTab = new CreativeTabs("legacy") {
 
         @Override
         public String getTabLabel(){

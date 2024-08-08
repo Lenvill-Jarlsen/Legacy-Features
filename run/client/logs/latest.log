@@ -1,67 +1,67 @@
-[22:38:18] [main/INFO]: Found and added coremod: minefantasy.mfr.core.MixinLoader
-[22:38:18] [main/INFO]: Found and added coremod: zone.rong.mixinbooter.MixinBooterPlugin
-[22:38:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[22:38:18] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[22:38:18] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[22:38:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[22:38:18] [main/INFO]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[22:38:18] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_412-412, running on Windows 11:amd64:10.0, installed at C:\Program Files\OpenLogic\jdk-8.0.412.08-hotspot\jre
-[22:38:18] [main/ERROR]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[22:38:18] [main/ERROR]: Full: C:\Users\Lenvill\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[22:38:18] [main/ERROR]: Trimmed: c:/users/lenvill/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[22:38:18] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[22:38:18] [main/INFO]: Detected deobfuscated environment, loading log configs for colored console logs.
-[22:38:18] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[22:38:18] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[22:38:18] [main/INFO] [FML]: Found a command line coremod : minefantasy.mfr.core.MixinLoader
-[22:38:18] [main/INFO] [FML]: Ignoring missing certificate for coremod MixinLoader (minefantasy.mfr.core.MixinLoader), as this is probably a dev workspace
-[22:38:18] [main/INFO] [FML]: Found a command line coremod : zone.rong.mixinbooter.MixinBooterPlugin
-[22:38:18] [main/WARN] [FML]: The coremod zone.rong.mixinbooter.MixinBooterPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[22:38:18] [main/INFO] [FML]: Ignoring missing certificate for coremod MixinBooter (zone.rong.mixinbooter.MixinBooterPlugin), as this is probably a dev workspace
-[22:38:18] [main/INFO] [MixinBooter]: Initializing Mixins...
-[22:38:18] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Lenvill/.gradle/caches/modules-2/files-2.1/zone.rong/mixinbooter/9.1/bbf73abfc0099e9e475f8f8303f3d5139a4a69af/mixinbooter-9.1.jar Service=LaunchWrapper Env=CLIENT
-[22:38:18] [main/INFO] [mixin]: Attempting to load Hot-Swap agent
-[22:38:19] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4218500f
-[22:38:19] [main/INFO] [mixin]: Initialised Legacy FML Dev Remapper
-[22:38:19] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[22:38:19] [main/INFO] [MixinBooter]: Initializing MixinExtras...
-[22:38:19] [main/INFO] [FML]: Searching C:\ModdingWorkshop\Legacy-Features\run\client\.\mods for mods
-[22:38:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[22:38:19] [main/INFO] [CoremodTweaker]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[22:38:19] [main/INFO] [CoremodTweaker]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[22:38:19] [main/INFO] [CoremodTweaker]: Injecting location in coremod minefantasy.mfr.core.MixinLoader
-[22:38:19] [main/INFO] [CoremodTweaker]: Injecting location in coremod zone.rong.mixinbooter.MixinBooterPlugin
-[22:38:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:38:19] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[22:38:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[22:38:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[22:38:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:38:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:38:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:38:19] [main/INFO] [MixinBooter]: Grabbing class minefantasy.mfr.core.MixinLoader for its mixins.
-[22:38:19] [main/INFO] [MixinBooter]: Adding mixins.minefantasyreforged.json mixin configuration.
-[22:38:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:38:19] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[22:38:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:38:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:38:19] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[22:38:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[22:38:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[22:38:20] [main/INFO] [net.minecraftforge.gradle.GradleForgeHacks]: Remapping AccessTransformer rules...
-[22:38:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[22:38:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[22:38:20] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[22:38:20] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player656
-[22:38:20] [Client thread/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[22:38:21] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[22:38:21] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[22:38:22] [Client thread/INFO] [FML]: -- System Details --
+[15:58:23] [main/INFO]: Found and added coremod: minefantasy.mfr.core.MixinLoader
+[15:58:23] [main/INFO]: Found and added coremod: zone.rong.mixinbooter.MixinBooterPlugin
+[15:58:23] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:58:23] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:58:23] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:58:23] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:58:23] [main/INFO]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[15:58:23] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_412-412, running on Windows 11:amd64:10.0, installed at C:\Program Files\OpenLogic\jdk-8.0.412.08-hotspot\jre
+[15:58:23] [main/ERROR]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[15:58:23] [main/ERROR]: Full: C:\Users\Lenvill\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[15:58:23] [main/ERROR]: Trimmed: c:/users/lenvill/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[15:58:23] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[15:58:23] [main/INFO]: Detected deobfuscated environment, loading log configs for colored console logs.
+[15:58:23] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[15:58:23] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[15:58:23] [main/INFO] [FML]: Found a command line coremod : minefantasy.mfr.core.MixinLoader
+[15:58:23] [main/INFO] [FML]: Ignoring missing certificate for coremod MixinLoader (minefantasy.mfr.core.MixinLoader), as this is probably a dev workspace
+[15:58:23] [main/INFO] [FML]: Found a command line coremod : zone.rong.mixinbooter.MixinBooterPlugin
+[15:58:23] [main/WARN] [FML]: The coremod zone.rong.mixinbooter.MixinBooterPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:58:23] [main/INFO] [FML]: Ignoring missing certificate for coremod MixinBooter (zone.rong.mixinbooter.MixinBooterPlugin), as this is probably a dev workspace
+[15:58:23] [main/INFO] [MixinBooter]: Initializing Mixins...
+[15:58:23] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Lenvill/.gradle/caches/modules-2/files-2.1/zone.rong/mixinbooter/9.1/bbf73abfc0099e9e475f8f8303f3d5139a4a69af/mixinbooter-9.1.jar Service=LaunchWrapper Env=CLIENT
+[15:58:23] [main/INFO] [mixin]: Attempting to load Hot-Swap agent
+[15:58:23] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4218500f
+[15:58:23] [main/INFO] [mixin]: Initialised Legacy FML Dev Remapper
+[15:58:23] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[15:58:23] [main/INFO] [MixinBooter]: Initializing MixinExtras...
+[15:58:24] [main/INFO] [FML]: Searching C:\ModdingWorkshop\Legacy-Features\run\client\.\mods for mods
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:58:24] [main/INFO] [CoremodTweaker]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[15:58:24] [main/INFO] [CoremodTweaker]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[15:58:24] [main/INFO] [CoremodTweaker]: Injecting location in coremod minefantasy.mfr.core.MixinLoader
+[15:58:24] [main/INFO] [CoremodTweaker]: Injecting location in coremod zone.rong.mixinbooter.MixinBooterPlugin
+[15:58:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:58:24] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[15:58:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:58:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:58:24] [main/INFO] [MixinBooter]: Grabbing class minefantasy.mfr.core.MixinLoader for its mixins.
+[15:58:24] [main/INFO] [MixinBooter]: Adding mixins.minefantasyreforged.json mixin configuration.
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:58:24] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:58:24] [main/INFO] [net.minecraftforge.gradle.GradleForgeHacks]: Remapping AccessTransformer rules...
+[15:58:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:58:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:58:24] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:58:25] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player484
+[15:58:25] [Client thread/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[15:58:26] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[15:58:26] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[15:58:27] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 11 (amd64) version 10.0
 	Java Version: 1.8.0_412-412, OpenLogic-OpenJDK
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), OpenLogic-OpenJDK
-	Memory: 806215760 bytes (768 MB) / 1343225856 bytes (1281 MB) up to 15071707136 bytes (14373 MB)
+	Memory: 833783488 bytes (795 MB) / 1361575936 bytes (1298 MB) up to 15071707136 bytes (14373 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
@@ -71,124 +71,124 @@ MixinBooter (mixinbooter-9.1.jar)
 MixinLoader (minefantasy-reforged-431996-5553214_mapped_stable_39-1.12.jar)
   
 	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.0 Compatibility Profile Context 24.5.1.240502' Renderer: 'AMD Radeon RX 6800'
-[22:38:22] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[22:38:22] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[22:38:22] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[22:38:22] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[22:38:22] [Client thread/INFO] [MixinBooter]: Initializing MixinBooter's Mod Container.
-[22:38:22] [Client thread/INFO] [FML]: Searching C:\ModdingWorkshop\Legacy-Features\run\client\.\mods for mods
-[22:38:22] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
-[22:38:22] [Client thread/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
-[22:38:23] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, mixinbooter, FML, forge, legacy_features, codechickenlib, minefantasyreforged, jei] at CLIENT
-[22:38:23] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, mixinbooter, FML, forge, legacy_features, codechickenlib, minefantasyreforged, jei] at SERVER
-[22:38:23] [Client thread/ERROR] [FML]: The mod codechickenlib is expecting signature f1850c39b2516232a2108a7bd84d1cb5df93b261 for source CodeChickenLib-1.12.2-3.2.3.358_mapped_stable_39-1.12-universal.jar, however there is no signature matching that description
-[22:38:24] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Legacy-Features, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:MineFantasy Reforged, FMLFileResourcePack:Just Enough Items
-[22:38:24] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[22:38:24] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[22:38:24] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[22:38:24] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[22:38:24] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[22:38:24] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
-[22:38:24] [Client thread/INFO] [minefantasyreforged]: API Debug mode updated: false
-[22:38:24] [Client thread/INFO] [minefantasyreforged]: Loading wood material registry entries from config directory
-[22:38:24] [Client thread/INFO] [minefantasyreforged]: Loading default wood material registry entries
-[22:38:24] [Client thread/INFO] [minefantasyreforged]: Loading metal material registry entries from config directory
-[22:38:24] [Client thread/INFO] [minefantasyreforged]: Loading default metal material registry entries
-[22:38:24] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 18480500 nanos
-[22:38:25] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
-[22:38:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[22:38:25] [Client thread/INFO] [FML]: Applying holder lookups
-[22:38:25] [Client thread/INFO] [FML]: Holder lookups applied
-[22:38:25] [Client thread/INFO] [FML]: Applying holder lookups
-[22:38:25] [Client thread/INFO] [FML]: Holder lookups applied
-[22:38:25] [Client thread/INFO] [FML]: Applying holder lookups
-[22:38:25] [Client thread/INFO] [FML]: Holder lookups applied
-[22:38:25] [Client thread/INFO] [FML]: Applying holder lookups
-[22:38:25] [Client thread/INFO] [FML]: Holder lookups applied
-[22:38:25] [Client thread/INFO] [FML]: Injecting itemstacks
-[22:38:25] [Client thread/INFO] [FML]: Itemstack injection complete
-[22:38:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[22:38:25] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[22:38:26] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[22:38:26] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[22:38:26] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[22:38:26] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[22:38:29] [Client thread/INFO] [FML]: Max texture size: 16384
-[22:38:30] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x1024 textures-atlas
-[22:38:31] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stick`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
-[22:38:31] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
-[22:38:31] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
-[22:38:31] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cake`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
-[22:38:31] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flint_and_steel`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
-[22:38:31] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bucket`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
-[22:38:31] [Client thread/WARN] [minefantasyreforged]: Overriding recipes with dummy recipes, please ignore the above "Dangerous alternative prefix" warnings.
-[22:38:31] [Client thread/INFO] [FML]: Applying holder lookups
-[22:38:31] [Client thread/INFO] [FML]: Holder lookups applied
-[22:38:31] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: java.lang.UnsupportedOperationException: JsonNull
-[22:38:31] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at com.google.gson.JsonElement.getAsString(JsonElement.java:191)
-[22:38:31] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at codechicken.lib.internal.ModDescriptionEnhancer.parse(ModDescriptionEnhancer.java:103)
-[22:38:31] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at codechicken.lib.internal.ModDescriptionEnhancer.lambda$init$0(ModDescriptionEnhancer.java:82)
-[22:38:31] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at java.lang.Thread.run(Thread.java:750)
-[22:38:32] [Client thread/INFO] [jei]: Created: 256x128 textures-atlas
-[22:38:32] [Client thread/INFO] [FML]: Injecting itemstacks
-[22:38:32] [Client thread/INFO] [FML]: Itemstack injection complete
-[22:38:32] [Client thread/INFO] [jei]: Starting JEI...
-[22:38:32] [Client thread/INFO] [jei]: Registering recipe categories...
-[22:38:32] [Client thread/INFO] [jei]: Registering recipe categories took 31.30 ms
-[22:38:32] [Client thread/INFO] [jei]: Registering mod plugins...
-[22:38:32] [Client thread/INFO] [jei]: Registering mod plugins took 127.8 ms
-[22:38:32] [Client thread/INFO] [jei]: Building recipe registry...
-[22:38:32] [Client thread/INFO] [jei]: Building recipe registry took 168.3 ms
-[22:38:32] [Client thread/INFO] [jei]: Building ingredient list...
-[22:38:32] [Client thread/INFO] [jei]: Building ingredient list took 20.88 ms
-[22:38:32] [Client thread/INFO] [jei]: Building ingredient filter...
-[22:38:33] [Client thread/INFO] [jei]: Building ingredient filter took 172.3 ms
-[22:38:33] [Client thread/INFO] [jei]: Building bookmarks...
-[22:38:33] [Client thread/INFO] [jei]: Building bookmarks took 1.950 ms
-[22:38:33] [Client thread/INFO] [jei]: Building runtime...
-[22:38:33] [Client thread/INFO] [jei]: Building runtime took 53.50 ms
-[22:38:33] [Client thread/INFO] [jei]: Optimizing memory usage...
-[22:38:33] [Client thread/INFO] [jei]: Optimizing memory usage took 48.53 ms
-[22:38:33] [Client thread/INFO] [jei]: Starting JEI took 814.6 ms
-[22:38:33] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
-[22:38:33] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[22:38:33] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[22:38:33] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[22:38:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[22:38:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[22:38:36] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[22:38:36] [Server thread/INFO] [FML]: Applying holder lookups
-[22:38:36] [Server thread/INFO] [FML]: Holder lookups applied
-[22:38:36] [Server thread/INFO] [FML]: Loading dimension 0 (Legacy Testing) (net.minecraft.server.integrated.IntegratedServer@69a06be2)
-[22:38:36] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[22:38:36] [Server thread/INFO] [FML]: Loading dimension -1 (Legacy Testing) (net.minecraft.server.integrated.IntegratedServer@69a06be2)
-[22:38:36] [Server thread/INFO] [FML]: Loading dimension 1 (Legacy Testing) (net.minecraft.server.integrated.IntegratedServer@69a06be2)
-[22:38:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[22:38:37] [Server thread/INFO] [FML]: Unloading dimension -1
-[22:38:37] [Server thread/INFO] [FML]: Unloading dimension 1
-[22:38:37] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[22:38:38] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[22:38:38] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[22:38:38] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 9 mods : minecraft@1.12.2,legacy_features@1.12.2-0.0.1,FML@8.0.99.99,minefantasyreforged@1.12.2-0.3.3,forge@14.23.5.2860,mixinbooter@9.1,codechickenlib@3.2.3.358,mcp@9.42,jei@4.16.1.302
-[22:38:38] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
-[22:38:38] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[22:38:38] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[22:38:38] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player656[local:E:f3e4ea31] logged in with entity id 313 at (-146.5245188192665, 70.0, 257.6680955813316)
-[22:38:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player656 joined the game
-[22:38:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[22:38:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Legacy Testing'/overworld
-[22:40:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[22:40:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Legacy Testing'/overworld
-[22:40:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[22:40:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[22:40:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player656 lost connection: Disconnected
-[22:40:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player656 left the game
-[22:40:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[22:40:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[22:40:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Legacy Testing'/overworld
-[22:40:59] [Server thread/INFO] [FML]: Unloading dimension 0
-[22:40:59] [Server thread/INFO] [FML]: Applying holder lookups
-[22:40:59] [Server thread/INFO] [FML]: Holder lookups applied
-[22:41:00] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[22:41:00] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[22:41:00] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[15:58:27] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[15:58:27] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[15:58:27] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[15:58:27] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[15:58:27] [Client thread/INFO] [MixinBooter]: Initializing MixinBooter's Mod Container.
+[15:58:27] [Client thread/INFO] [FML]: Searching C:\ModdingWorkshop\Legacy-Features\run\client\.\mods for mods
+[15:58:27] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[15:58:27] [Client thread/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
+[15:58:27] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, mixinbooter, FML, forge, legacy_features, codechickenlib, minefantasyreforged, jei] at CLIENT
+[15:58:27] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, mixinbooter, FML, forge, legacy_features, codechickenlib, minefantasyreforged, jei] at SERVER
+[15:58:27] [Client thread/ERROR] [FML]: The mod codechickenlib is expecting signature f1850c39b2516232a2108a7bd84d1cb5df93b261 for source CodeChickenLib-1.12.2-3.2.3.358_mapped_stable_39-1.12-universal.jar, however there is no signature matching that description
+[15:58:28] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Legacy-Features, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:MineFantasy Reforged, FMLFileResourcePack:Just Enough Items
+[15:58:28] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[15:58:28] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[15:58:28] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[15:58:28] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[15:58:28] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[15:58:28] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15:58:29] [Client thread/INFO] [minefantasyreforged]: API Debug mode updated: false
+[15:58:29] [Client thread/INFO] [minefantasyreforged]: Loading wood material registry entries from config directory
+[15:58:29] [Client thread/INFO] [minefantasyreforged]: Loading default wood material registry entries
+[15:58:29] [Client thread/INFO] [minefantasyreforged]: Loading metal material registry entries from config directory
+[15:58:29] [Client thread/INFO] [minefantasyreforged]: Loading default metal material registry entries
+[15:58:29] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 18821400 nanos
+[15:58:29] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[15:58:29] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[15:58:29] [Client thread/INFO] [FML]: Applying holder lookups
+[15:58:29] [Client thread/INFO] [FML]: Holder lookups applied
+[15:58:29] [Client thread/INFO] [FML]: Applying holder lookups
+[15:58:29] [Client thread/INFO] [FML]: Holder lookups applied
+[15:58:29] [Client thread/INFO] [FML]: Applying holder lookups
+[15:58:29] [Client thread/INFO] [FML]: Holder lookups applied
+[15:58:29] [Client thread/INFO] [FML]: Applying holder lookups
+[15:58:29] [Client thread/INFO] [FML]: Holder lookups applied
+[15:58:29] [Client thread/INFO] [FML]: Injecting itemstacks
+[15:58:29] [Client thread/INFO] [FML]: Itemstack injection complete
+[15:58:29] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[15:58:30] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[15:58:30] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[15:58:30] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:58:30] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[15:58:30] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[15:58:33] [Client thread/INFO] [FML]: Max texture size: 16384
+[15:58:35] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x1024 textures-atlas
+[15:58:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stick`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[15:58:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[15:58:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[15:58:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cake`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[15:58:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flint_and_steel`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[15:58:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bucket`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[15:58:36] [Client thread/WARN] [minefantasyreforged]: Overriding recipes with dummy recipes, please ignore the above "Dangerous alternative prefix" warnings.
+[15:58:36] [Client thread/INFO] [FML]: Applying holder lookups
+[15:58:36] [Client thread/INFO] [FML]: Holder lookups applied
+[15:58:36] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: java.lang.UnsupportedOperationException: JsonNull
+[15:58:36] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at com.google.gson.JsonElement.getAsString(JsonElement.java:191)
+[15:58:36] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at codechicken.lib.internal.ModDescriptionEnhancer.parse(ModDescriptionEnhancer.java:103)
+[15:58:36] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at codechicken.lib.internal.ModDescriptionEnhancer.lambda$init$0(ModDescriptionEnhancer.java:82)
+[15:58:36] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at java.lang.Thread.run(Thread.java:750)
+[15:58:36] [Client thread/INFO] [jei]: Created: 256x128 textures-atlas
+[15:58:36] [Client thread/INFO] [FML]: Injecting itemstacks
+[15:58:36] [Client thread/INFO] [FML]: Itemstack injection complete
+[15:58:36] [Client thread/INFO] [jei]: Starting JEI...
+[15:58:36] [Client thread/INFO] [jei]: Registering recipe categories...
+[15:58:37] [Client thread/INFO] [jei]: Registering recipe categories took 27.08 ms
+[15:58:37] [Client thread/INFO] [jei]: Registering mod plugins...
+[15:58:37] [Client thread/INFO] [jei]: Registering mod plugins took 133.1 ms
+[15:58:37] [Client thread/INFO] [jei]: Building recipe registry...
+[15:58:37] [Client thread/INFO] [jei]: Building recipe registry took 180.1 ms
+[15:58:37] [Client thread/INFO] [jei]: Building ingredient list...
+[15:58:37] [Client thread/INFO] [jei]: Building ingredient list took 21.35 ms
+[15:58:37] [Client thread/INFO] [jei]: Building ingredient filter...
+[15:58:37] [Client thread/INFO] [jei]: Building ingredient filter took 173.7 ms
+[15:58:37] [Client thread/INFO] [jei]: Building bookmarks...
+[15:58:37] [Client thread/INFO] [jei]: Building bookmarks took 3.695 ms
+[15:58:37] [Client thread/INFO] [jei]: Building runtime...
+[15:58:37] [Client thread/INFO] [jei]: Building runtime took 52.69 ms
+[15:58:37] [Client thread/INFO] [jei]: Optimizing memory usage...
+[15:58:37] [Client thread/INFO] [jei]: Optimizing memory usage took 47.86 ms
+[15:58:37] [Client thread/INFO] [jei]: Starting JEI took 776.8 ms
+[15:58:37] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
+[15:58:37] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[15:58:37] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[15:58:38] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[15:58:40] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[15:58:40] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[15:58:40] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[15:58:40] [Server thread/INFO] [FML]: Applying holder lookups
+[15:58:40] [Server thread/INFO] [FML]: Holder lookups applied
+[15:58:40] [Server thread/INFO] [FML]: Loading dimension 0 (Legacy Testing) (net.minecraft.server.integrated.IntegratedServer@f67b23b)
+[15:58:40] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[15:58:40] [Server thread/INFO] [FML]: Loading dimension -1 (Legacy Testing) (net.minecraft.server.integrated.IntegratedServer@f67b23b)
+[15:58:40] [Server thread/INFO] [FML]: Loading dimension 1 (Legacy Testing) (net.minecraft.server.integrated.IntegratedServer@f67b23b)
+[15:58:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[15:58:41] [Server thread/INFO] [FML]: Unloading dimension -1
+[15:58:41] [Server thread/INFO] [FML]: Unloading dimension 1
+[15:58:41] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[15:58:42] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[15:58:42] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[15:58:42] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 9 mods : minecraft@1.12.2,legacy_features@1.12.2-0.0.1,FML@8.0.99.99,minefantasyreforged@1.12.2-0.3.3,forge@14.23.5.2860,mixinbooter@9.1,codechickenlib@3.2.3.358,mcp@9.42,jei@4.16.1.302
+[15:58:42] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[15:58:42] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[15:58:42] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:58:42] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player484[local:E:e3d8aaec] logged in with entity id 357 at (-144.7753584816697, 71.0, 253.4016860352889)
+[15:58:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player484 joined the game
+[15:58:42] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:58:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Legacy Testing'/overworld
+[15:58:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:58:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Legacy Testing'/overworld
+[15:58:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[15:58:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[15:58:58] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player484 lost connection: Disconnected
+[15:58:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player484 left the game
+[15:58:58] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[15:58:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[15:58:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Legacy Testing'/overworld
+[15:58:59] [Server thread/INFO] [FML]: Unloading dimension 0
+[15:58:59] [Server thread/INFO] [FML]: Applying holder lookups
+[15:58:59] [Server thread/INFO] [FML]: Holder lookups applied
+[15:59:00] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[15:59:00] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[15:59:00] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

@@ -1,3 +1,5 @@
 itemGroup.legacy=[MF] Legacy Features Addon
 
 item.zyrridium_dust.name=Zyrridium Dust
+tile.zyrridium_ore.name=Zyrridium Ore
+tile.zyrridium_block.name=Zyrridium Block
